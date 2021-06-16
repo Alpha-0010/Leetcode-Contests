@@ -1,6 +1,6 @@
 class Solution {
     public boolean mergeTriplets(int[][] triplets, int[] target) {
-        // Greedy Approach: Pick the triplet where all the three values are less than or equal to target[idx]
+        // Greedy Approach Pick the triplet where all the three values are less than or equal to target[idx]
         
         int[] res=new int[3];
         
